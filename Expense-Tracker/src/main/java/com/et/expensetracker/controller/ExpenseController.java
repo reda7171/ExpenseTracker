@@ -63,6 +63,8 @@ public class ExpenseController {
 		return "redirect:/";
 	}
 	
+	
+	//edit expense
 	@GetMapping("editExpense/{id}")
 	public String showUpdateExpensePage(@PathVariable("id") long id ,org.springframework.ui.Model model) {
 		

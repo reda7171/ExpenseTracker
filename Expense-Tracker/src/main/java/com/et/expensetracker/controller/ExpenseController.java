@@ -44,7 +44,7 @@ public class ExpenseController {
 	}
 	
 	
-	
+	//add expense
 	@GetMapping("/addExpense")
 	public String showAddExpensePage(org.springframework.ui.Model model) {
 		

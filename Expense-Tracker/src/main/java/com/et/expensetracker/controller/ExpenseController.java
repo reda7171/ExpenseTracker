@@ -30,7 +30,7 @@ public class ExpenseController {
 	private ExpenseService expenseService;
 	
 	
-	
+	//get all expense
 	@GetMapping("/")
 	public String viewHomePage(org.springframework.ui.Model model) {
 		List<Expense> expenses = expenseService.getAllExpenses();
